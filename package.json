@@ -9,6 +9,7 @@
     "@slidev/cli": "^0.27.0",
     "@slidev/theme-apple-basic": "^0.20.0",
     "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "latest"
+    "@slidev/theme-seriph": "latest",
+    "playwright-chromium": "^1.17.1"
   }
 }
