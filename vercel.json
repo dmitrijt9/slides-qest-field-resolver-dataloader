@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/slides/qest/field-resolver-dataloader/(.*)", "destination": "/" }
+    { "source": "/(.*)", "destination": "/" }
   ]
 }
