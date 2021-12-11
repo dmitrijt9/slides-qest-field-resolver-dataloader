@@ -230,18 +230,11 @@ async pickupPoint(@Root() invoice: Invoice, @Ctx() { loaders }: GraphqlContext):
 
 # Používat?
 
-- za mě nemusíme, je to věc nějaké optimalizace
-  
-  - popřípadě unifikovaného API na dotažení dat (dá se částečně nahradit pomocí services...)
-  
-  - je to ale 2v1 - api, optimalizace
-- pokud budem dodržovat field resolvery, tak se dá jednoduše doimplementovat
-- hybrid mod? Nechat to na pocitu
-  - přímočaré a v rámci velkého seznamu?
-    
-    - pak dataloader
-    
-    - jinak klasika service/repository
+* za mě v daný moment nemusíme
+  * nemáme zatím více datových zdrojů
+  * z FE nejsou moc hluboké dotazy "zatím"
+* pokud budem dodržovat field resolvery, tak se dá jednoduše a postupně doimplementovat
+* hybrid mod? Nechat to na pocitu, popřípadě na potřebách z FE
 
 Diskuze 🗣
 
